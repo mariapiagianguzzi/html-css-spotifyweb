@@ -445,5 +445,10 @@ nav a span:hover::after{
   }
 }
 
+@media screen and (max-width: 768px){
+  .row {
+    width: 768px;
+  }
+
 
 
