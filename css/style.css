@@ -443,16 +443,19 @@ nav a span:hover::after{
   nav {
     flex-wrap: wrap;
   }
-
-  
+  .item{
+    height: 250px;
+  }
 }
 
-@media screen and (max-width: 768px){
- 
+
+@media screen and (max-width: 769px){ 
+  
   .main_menu {
     min-width: 80px;
     width: 80px;
   }
+
   .covers_section {
     width: 100%;
   }
@@ -524,7 +527,6 @@ nav a span:hover::after{
   }
   
 } 
-
 
 
 
