@@ -187,7 +187,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
-  width: calc(100% - 250px);
+  width: calc(100% - 200px);
   height: 100px;
   background-color: #000000ea;
   justify-content: flex-end;
@@ -443,10 +443,13 @@ nav a span:hover::after{
   nav {
     flex-wrap: wrap;
   }
+
+  
 }
 
 @media screen and (max-width: 768px){
-  aside.main_menu {
+ 
+  .main_menu {
     min-width: 80px;
     width: 80px;
   }
@@ -481,7 +484,76 @@ nav a span:hover::after{
     border-top: none;
   }
 
-}
+  #site_footer {
+    height: 100px;
+  }
+  #site_content{
+    height: calc(100% - 80px);
+  }
+  .player {
+    justify-content: space-around;
+  }
+  .track-cover img {
+    height: 20px;
+  }
+  .track-title{
+    font-size: 1.2rem;
+  }
+  .track-fav{
+    flex-direction: column;
+  }
+  .play{
+    width:50%;
+  }
+  .controls .cursor {
+    width: 80px;
+  }
+  .controls .cursor-overlay {
+    width: 20px;
+  }
+  .installa img{
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  .username img{
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  .home li a{
+    padding-left: 25px;
+  }
+  
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
